@@ -1,0 +1,263 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: #2B2B2B; */
+}
+
+/* ============= NavBar =================== */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    background-color: #2B2B2B;
+    height: 64px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    color: white;
+    font-size: 18px;
+    margin: 0px 7px;
+}
+
+.logo img {
+    font-size: 18px;
+}
+
+.side {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.side h5 {
+    color: white;
+}
+
+.btn {
+    color: white;
+    background: #A259FF;
+    padding: 12px 25px;
+    border-radius: 10px;
+    display: flex;
+    column-gap: 10px;
+    align-items: baseline;
+}
+
+.btn a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.btn img {
+    height: 14px;
+}
+
+/* =========== cont ============== */
+.cont {
+    background-color: #2B2B2B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cont1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    column-gap: 20px;
+
+}
+
+.cont1 h1 {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: normal;
+    margin: 20px 0px;
+}
+
+.cont1 p {
+    color: white;
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left {
+    padding: 0px 20px;
+}
+
+.btn1 {
+    width: 170px;
+}
+
+
+
+.ad-info {
+
+    display: flex;
+}
+
+.info {
+    margin: 20px 35px;
+}
+
+.info h2 {
+    color: white;
+}
+
+.info p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.box {
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+
+.box h2 {
+    padding-left: 20px;
+    color: white;
+}
+
+.user1 {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.user1 img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+/* ================ trending collection ================= */
+.t-collection{
+    background-color: #2B2B2B;
+    padding: 50px 100px;
+}
+.t-collection h1,p{
+    color: white;
+    margin: 7px 0px;
+}
+.m-box img{
+    width: 350px;
+}
+.h-1{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin: 200px 0px;
+}
+.l-box{
+margin: 10px 3px;
+/* margin: auto; */
+}
+.l-box img{
+    width:110px;
+}
+.user-0{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 20px;
+}
+.user-0 img {
+    width: 20px;
+    height: 20px;
+}
+.user-0 p{
+color: white;
+margin: 5px 0px;
+font-size: 12px;
+}
+.t-box{
+    /* padding: 50px 0px; */
+    margin-top: 20px;
+}
+.f-box{
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+}
+/* .t-box{
+    display: flex;
+} */
+
+/* ======== top creators ================= */
+.btn-c{
+    background: none;
+    border:  3px solid #A259FF;
+}
+.t-creators{
+    background: #2B2B2B;
+    padding: 40px 80px;
+    padding-top: 200px;
+}
+.t-creators h1{
+    color: #FFFFFF;
+}
+.btn-c{
+    position: absolute;
+    right: 100px;
+}
+.g-box{
+    background: #3B3B3B;
+    padding: 35px 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+.num{
+    background: #2B2B2B;
+    width: 25px;
+    color: #858584;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.pic-box p{
+color: #ffffff;
+font-size: 25px;
+}
+.i-box{
+    display: flex;
+    column-gap: 10px;
+    font-size: 12px;
+}
+.i-box span{
+    color: #858584;
+}
+.i-box h4{
+    color: #ffffff;
+}
+.t-creators{
+    margin-top: px;
+}
+.flex{
+    margin-top: 70px;
+}
+/* ================= browse ============== */
+.browse{
+    background: #2B2B2B;
+}
+.user2{
+    color: white;
+    font-size: 18px;
+}
+.box1{
+    background: #858584;
+}
